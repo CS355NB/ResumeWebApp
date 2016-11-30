@@ -16,7 +16,7 @@ exports.getAll = function(callback) {
     });
 };
 
-exports.getById = function(school_id, callback) {
+exports.getById = function(company_id, callback) {
     var query = 'SELECT * FROM Company WHERE company_id = ?';
     var queryData = [company_id];
 

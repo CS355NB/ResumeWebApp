@@ -16,7 +16,7 @@ exports.getAll = function(callback) {
     });
 };
 
-exports.getById = function(school_id, callback) {
+exports.getById = function(skill_id, callback) {
     var query = 'SELECT * FROM Skill WHERE skill_id = ?';
     var queryData = [skill_id];
 

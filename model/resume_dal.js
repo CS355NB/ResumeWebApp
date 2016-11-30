@@ -16,9 +16,9 @@ exports.getAll = function(callback) {
     });
 };
 
-exports.getById = function(school_id, callback) {
+exports.getById = function(resume_id, callback) {
     var query = 'SELECT * FROM Resume WHERE resume_id = ?';
-    var queryData = [school_id];
+    var queryData = [resume_id];
 
     connection.query(query, queryData, function(err, result) {
         callback(err, result);

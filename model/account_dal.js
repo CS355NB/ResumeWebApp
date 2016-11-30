@@ -16,7 +16,7 @@ exports.getAll = function(callback) {
     });
 };
 
-exports.getById = function(school_id, callback) {
+exports.getById = function(account_id, callback) {
     var query = 'SELECT * FROM Account WHERE account_id = ?';
     var queryData = [account_id];
 
