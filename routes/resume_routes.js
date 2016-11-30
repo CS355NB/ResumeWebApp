@@ -27,7 +27,7 @@ router.get('/', function(req, res){
                 res.send(err);
             }
             else {
-                res.render('resume/resumeViewById', {'result': result});
+                res.render('resume/resumeViewByld', {'result': result});
             }
         });
     }

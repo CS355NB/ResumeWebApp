@@ -27,7 +27,7 @@ router.get('/', function(req, res){
                 res.send(err);
             }
             else {
-                res.render('address/addressViewById', {'result': result});
+                res.render('address/addressViewByld', {'result': result});
             }
         });
     }

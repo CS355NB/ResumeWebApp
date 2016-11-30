@@ -27,7 +27,7 @@ router.get('/', function(req, res){
                 res.send(err);
             }
             else {
-                res.render('account/accountViewById', {'result': result});
+                res.render('account/accountViewByld', {'result': result});
             }
         });
     }

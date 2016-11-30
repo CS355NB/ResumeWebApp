@@ -27,7 +27,7 @@ router.get('/', function(req, res){
                 res.send(err);
             }
             else {
-                res.render('company/companyViewById', {'result': result});
+                res.render('company/companyViewByld', {'result': result});
             }
         });
     }

@@ -10,7 +10,7 @@
             <tr>
                 <td><%= result[i].skill_id%></td>
                 <td><a href="/skill/?skill_id=<%= result[i].skill_id %>"><%= result[i].skill_name %></a></td>
-                <td><a href="/skill/?skill_id=<%= result[i].skill_id %>"><%= result[i].skill_description%></a></td>
+                <td><%= result[i].skill_description%></td>
             </tr>
             <% } %>
         </table>
